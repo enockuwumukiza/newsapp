@@ -1,0 +1,152 @@
+html,body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #5294dc;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  
+}
+/* Dark Mode Styles */
+body {
+  background-color: #121212;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333333;
+}
+
+/* Card */
+.card {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  border: 1px solid #333333;
+}
+
+/* Button */
+.btn {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+}
+
+/* Links */
+a {
+  color: #5294dc;
+}
+
+a:hover {
+  color: #FFD700;
+}
+
+
+#card{
+  position: relative;
+  display: flex;
+  left:0;
+  margin-bottom: 10px;
+  padding: 10px;
+ 
+ 
+  
+}
+.navbar-toggle-icon{
+  color: white;
+}
+.nav-link:hover{
+  background-color: hsl(60, 100%, 30%);
+  border-radius: 10px;
+}
+#my-navbar{
+  background: linear-gradient(115deg,rgb(241, 177, 59),rgb(25, 72, 72),magenta,gray,rgb(62, 17, 9));
+  display: flex;
+  width: 100vw;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 1;
+  padding: 10px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+ 
+  
+}
+#my-navbar:first-of-type{
+  margin-bottom: 25%;
+}
+.js-row:first-of-type{
+  padding-top: 70px;
+}
+.js-navbar{
+  padding: auto;
+  margin: auto;
+}
+
+.card {
+  width: 30rem; 
+  height: auto;
+  border: 2px solid;
+
+  margin-bottom: 20px; 
+  margin-top:0;
+  margin: 0x; 
+  box-shadow: 1px 3px 1px 3px hsl(0, 0%, 40%);
+  padding: 10px
+
+}
+.news-container{
+  display:flex;
+  position: sticky;
+  
+
+}
+.news-container img{
+  width: 100%;
+  
+  object-fit: cover;
+ 
+}
+.card-title{
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: bold;
+  color:rgb(29, 154, 154);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-text{
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+.js-button{
+  position: absolute;
+  bottom: 5px;
+  left:30%;
+  padding: 3px;
+}
+.my-footer{
+  color: darkslategrey;
+  background-image: linear-gradient(90deg, #0d0f0f, #0d1227);
+
+}
+#my-footer a{
+  text-decoration: none;
+}
+#my-footer li{
+  list-style: none;
+}
+.link-hover:hover,
+.social-icon-hover:hover {
+  background-color:black;
+  border-radius: 10px;
+  padding: 10px;
+  color: wheat;
+}
+
+
+
